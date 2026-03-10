@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    height: 100vh;
+background: linear-gradient(135deg, #ff6a00, #ee0979);
+
+}
+
+
+#entrycontainer
+{
+    width:30%;
+    display: flex;
+    margin:20% auto 40%;
+    background-color: white;
+    padding:30px 10px 40px;
+    flex-direction: column;
+   align-items: center;
+    border-radius: 2px;
+}
+
+input
+{
+   flex: 1;
+   padding:5px;
+   border-radius: 2em;
+    border: 2px solid black;
+    font-weight: bold;
+}
+button{
+    position: absolute;
+    right:0px;
+    top:0px;
+    border-radius: 2em;
+    padding:5px ;
+    border:2px solid tomato;
+    background-color: tomato;
+    
+}
+
+#nameentry
+{
+    position: relative;
+    
+}
+#imagecontaainer
+{
+    height: 100px;
+}
